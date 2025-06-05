@@ -8,6 +8,13 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    'bg-blueSea',
+    'bg-blueDeeper',
+    'bg-orangeNeon',
+    'bg-redNeon',
+    'bg-yellowNeon',
+  ],
   theme: {
     extend: {
       colors: {

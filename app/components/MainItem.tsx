@@ -15,7 +15,7 @@ export default function MainItem({
     title,
     isSoldOut,
     bgColor
-}: MainItemProps) {
+}: Readonly<MainItemProps>) {
     return (
         <div className={`bg-${bgColor} h-screen flex flex-col items-center justify-center snap-start`}>
             <Image

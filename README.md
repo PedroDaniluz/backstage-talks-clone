@@ -38,15 +38,18 @@ Este projeto é um clone **não comercial** do site [Backstage Talks](https://ba
 
 3. Execute a simulação de api:
    ```bash
+   npm install -g json-server
    json-server --watch --port 4000 .\_data\issues.json
    ```
 
-4. Inicie o servidor de desenvolvimento:
+4. Abra outro terminal na pasta root do projeto.
+
+5. Inicie o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
 
-5. Acesse no navegador:
+6. Acesse no navegador:
    [http://localhost:3000](http://localhost:3000)
 
 ---

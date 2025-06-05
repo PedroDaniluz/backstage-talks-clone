@@ -1,0 +1,25 @@
+{
+    "issues": [
+        {
+            "image": "backstagetalks_cover_issue_3.png",
+            "alt": "issue 3 cover",
+            "title": "Issue #3",
+            "isSoldOut": true,
+            "bgColor": "yellowNeon"
+        },
+        {
+            "image": "backstagetalks_cover_issue_4.png",
+            "alt": "issue 4 cover",
+            "title": "Issue #4",
+            "isSoldOut": false,
+            "bgColor": "orangeNeon"
+        },
+        {
+            "image": "backstagetalks_cover_issue_5.png",
+            "alt": "issue 5 cover",
+            "title": "Issue #5",
+            "isSoldOut": false,
+            "bgColor": "blueSea"
+        }
+    ]
+}

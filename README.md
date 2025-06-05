@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🎭 Backstage Talks Clone (Estudo)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto é um clone **não comercial** do site [Backstage Talks](https://backstagetalks.com/), criado com foco em **aprendizado** e **prática** utilizando o framework [Next.js](https://nextjs.org/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📑 Índice
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [🚀 Tecnologias](#tecnologias)
+- [🔧 Como rodar o projeto](#como-rodar-o-projeto)
+- [⚠️ Aviso](#aviso)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+<h2 id="tecnologias">🚀 Tecnologias</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/)
+- React
+- JavaScript
+- CSS Modules (ou outra ferramenta de estilização utilizada)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+<h2 id="como-rodar-o-projeto">🔧 Como rodar o projeto</h2>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/pedrodaniluz/backstage-talks-clone.git
+   cd backstage-talks-clone
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Execute a simulação de api:
+   ```bash
+   json-server --watch --port 4000 .\_data\issues.json
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse no navegador:
+   [http://localhost:3000](http://localhost:3000)
+
+---
+
+<h2 id="aviso">⚠️ Aviso</h2>
+
+Este projeto é **exclusivamente educacional** e não tem qualquer fim comercial ou afiliado com o site original.
+

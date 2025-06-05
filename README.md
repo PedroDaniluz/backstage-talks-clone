@@ -19,7 +19,7 @@ Este projeto é um clone **não comercial** do site [Backstage Talks](https://ba
 - [Next.js](https://nextjs.org/)
 - React
 - JavaScript
-- CSS Modules (ou outra ferramenta de estilização utilizada)
+- Tailwind CSS
 
 ---
 
